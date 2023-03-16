@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main -calculating bytes
+ * main - calculating bytes
  *
  * Return: Always 0 (success)
  */
