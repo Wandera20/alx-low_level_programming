@@ -1,10 +1,11 @@
-#include <unistd.h>
+#include <stdio.h>
 /**
- * _putchar - write character c to stdio
+ * _putchar - write character to standard output
+ * * @c: the character to be written
  *
- * Return:1 (success)
+ * Return: on success 1, on error -1
  */
 int _putchar(char c)
 {
-	return (write(1 &c 1));
+	return fputc(c, stdout) == EOF ? -1 : 1;
 }
