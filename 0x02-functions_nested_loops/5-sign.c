@@ -3,7 +3,9 @@
  * print_sign - prints sign of a number
  * @n: to be checked for the sign
  *
- * Returns: 1 if n is greater than 0, 0 if n is 0, -1 if n is less than 0
+ * Returns: Always 1 if n is greater than zero
+ * Always 0 if n is zero
+ * Always -1 if  n is less than zero
  */
 int print_sign(int n)
 {
